@@ -1,29 +1,36 @@
+
+/* This is a universial selector that makes the entire webpage a box with 0 padding and margin.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This element changes the background color of the entire body*/
 body {
     background-color: #d9dcd6;
 }
 
+/* This class styles the headers for the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This class displays the title Horiseon inline and with a font size of 48px in the header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+/*This class styles the color of the links that are applied to the header*/ 
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This class styles the links of the header to be displayed on the right side of the header*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +38,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* This class gets rid of the bullet points for the links*/
 .header div ul {
     list-style-type: none;
 }
 
+/*This class styles the links that are applied to the header by displaying them inline*/ 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This element selector changes all the links to the white color and to have no text decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This element selector changes the paragraphs to all have the same font size of 16px*/
 p {
     font-size: 16px;
 }
 
+/*This class applies the photo named digital-marketing-meeting as the background in this section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*This class is applied to float the photos to the left of their container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*This class is applied to float the photos to the right of their container*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*This class displays the content in the containers with inline block and a set margin*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This class is to apply the section for benefits to the right side of the screen and with a set area and container*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/*This class applies to section for lead generation to set a margin for the bottom*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*This class applies to section for brand awareness to set a margin for the bottom*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*This class applies to section for cost management to set a margin for the bottom*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*This class applies to header of the section for lead generation to set a margin for the bottom and align the text*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*This class applies to header of the section for brand awareness to set a margin for the bottom and align the text*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*This class applies to header of the section for cost management to set a margin for the bottom and align the text*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*This class applies to image of the section for lead generation to set a margin and display the photo with block*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*This class applies to image of the section for brand awareness to set a margin and display the photo with block*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*This class applies to image of the section for cost management to set a margin and display the photo with block*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*This class sets the container for search engine optimization with a set font and colors*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/*This class sets the container for online reputation management with a set font and colors*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/*This class sets the container for social media marketing with a set font and colors*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/*This class applies to image of the section for search engine optimization to set a max height*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*This class applies to image of the section for online reputation management to set a max height*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*This class applies to image of the section for social media marketing to set a max height*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*This class formats the header of the search engine optimization section to have font of size 36px and a margin on the bottom.*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This class formats the header of the online reputation management section to have font of size 36px and a margin on the bottom.*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This class formats the header of the social media marketing section to have font of size 36px and a margin on the bottom.*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*This class formats the footer of the page*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/*This class formats the header of the footer to have font of size 20px*/
 .footer h4 {
     font-size: 20px;
 }
