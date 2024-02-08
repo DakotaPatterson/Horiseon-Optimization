@@ -15,7 +15,7 @@ The best way to use this is to locate the links in the [horiseon header](images/
 
 Once you locate the section you need you can then read up on the needed information and use the [side bar](images/screenshot1.png) to access more info.
 
-Website URL
+https://dakotapatterson.github.io/Horiseon-Optimization/
 
 ## Credits
 
